@@ -16,7 +16,7 @@ public class RequestApi {
         random.setSeed(10);
         String randomSensorName = "sensor56";
         registerSensor(randomSensorName);
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 1000; i++) {
             double randomValue = random.nextDouble(-100, 100);
             boolean rainingRandom = random.nextBoolean();
             sendMeasurement(randomValue, rainingRandom, randomSensorName);
