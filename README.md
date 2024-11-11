@@ -3,13 +3,13 @@ this is a REST project written in spring boot about the Sensor and its Measureme
 ============================================== Working With PostMan ==============================================
 -
 - create a new request with the post method to the address - http://localhost:8080/sensors/registration
-- 
+
 - Json request body {
 												"name": "sensorName"
        				}
-- 					
+					
 - you will register a new sensor on which you can record new Measurements
--
+
 - create a new request with the post method to the address - http://localhost:8080/measurements/add
 -
 - Json request body {
@@ -20,5 +20,12 @@ this is a REST project written in spring boot about the Sensor and its Measureme
     									}
 									  }
 
+
 -
--
+- create a new request with the post method to the address - http://localhost:8080/measurements
+
+- response all Measurements in JSON
+
+- create a new request with the post method to the address - http://localhost:8080/measurements/rainyDaysCount
+
+- The answer is all the days when it rains
