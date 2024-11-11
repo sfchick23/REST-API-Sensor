@@ -1,6 +1,6 @@
 this is a REST project written in spring boot about the Sensor and its Measurements, you can work with this project through postman
 
-============================================== Working With PostMan ==============================================
+=============== Working With PostMan ===============
 -
 - create a new request with the post method to the address - http://localhost:8080/sensors/registration
 
